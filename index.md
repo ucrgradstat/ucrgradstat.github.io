@@ -1,6 +1,5 @@
 ---
 layout: home
-title: UCR Department of Statistics Graduate Student Association
 ---
 
 
