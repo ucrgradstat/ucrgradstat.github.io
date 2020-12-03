@@ -1,6 +1,3 @@
-
-## Welcome!
-
 Welcome to our website!
 
 We are still working on creating the website.
