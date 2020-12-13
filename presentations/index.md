@@ -1,12 +1,15 @@
 ---
 layout: page
-title: About
+title: Presentations
 permalink: /presentations/
 ---
 
-### HPCC Presentation 
+### HPCC Presentation
+
 Date 12-18-2020
+
 Presenter Isaac Quintanilla Salinas
-[Presentation](hpcc.html)
-[R Script](Parallel_Job.R)
+
+[Presentation](hpcc.html) | 
+[R Script](Parallel_Job.R) | 
 [Bash Script](Cluster_Script.sh)

@@ -3,7 +3,6 @@ title: "Parallel Processing for Statistics"
 author: "Isaac Quintanilla Salinas"
 output: 
   ioslides_presentation:
-    keep_md: yes
     widescreen: yes
     df_print: paged
     incremental: true
