@@ -1,7 +1,6 @@
 ---
 title: "Parallel Processing for Statistics"
 author: "Isaac Quintanilla Salinas"
-date: "12-18-2020"
 output: 
   ioslides_presentation:
     keep_md: yes
