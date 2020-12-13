@@ -4479,7 +4479,7 @@ slide:not(.current) .plotly.html-widget{
 
 <slide class=""><hgroup><h2>Outline</h2></hgroup><article  id="outline">
 
-<ul class = 'build'>
+<ul>
 <li><p>Introduction</p></li>
 <li><p>Cluster</p></li>
 <li><p>Parallel Processing in R</p></li>
@@ -4490,14 +4490,14 @@ slide:not(.current) .plotly.html-widget{
 
 </article></slide><slide class=""><hgroup><h2>Terminology</h2></hgroup><article  id="terminology">
 
-<ul class = 'build'>
+<ul>
 <li><p>job: A task a computer must complete</p></li>
 <li><p>bash script: tells the computer what to do</p></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>My Cluster Usage</h2></hgroup><article  id="my-cluster-usage">
 
-<ul class = 'build'>
+<ul>
 <li><p>Computationally Intensive</p></li>
 <li><p>Use R and C++ (via Rcpp)</p></li>
 </ul>
@@ -4506,10 +4506,10 @@ slide:not(.current) .plotly.html-widget{
 
 </article></slide><slide class=""><hgroup><h2>How do I view the cluster?</h2></hgroup><article  id="how-do-i-view-the-cluster">
 
-<ul class = 'build'>
+<ul>
 <li>Virtual Desktop Computer
 
-<ul class = 'build'>
+<ul>
 <li>Set number of cores (max 32 cpus)</li>
 <li>Set RAM (max 128 GB)</li>
 <li>Set storage (20 GB)</li>
@@ -4518,31 +4518,31 @@ slide:not(.current) .plotly.html-widget{
 
 </article></slide><slide class=""><hgroup><h2>How to access the cluster?</h2></hgroup><article  id="how-to-access-the-cluster">
 
-<ul class = 'build'>
+<ul>
 <li>RStudio Server
 
-<ul class = 'build'>
+<ul>
 <li><a href='https://rstudio.hpcc.ucr.edu/' title=''>https://rstudio.hpcc.ucr.edu/</a></li>
 </ul></li>
 <li>Terminal
 
-<ul class = 'build'>
+<ul>
 <li>ssh</li>
 </ul></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>RStudio Server</h2></hgroup><article  id="rstudio-server">
 
-<ul class = 'build'>
+<ul>
 <li><p>Edit any text document</p></li>
 <li><p>Submit jobs</p></li>
 <li><p>Upload/Download Data or Documents</p></li>
 <li><p>Do not do computationally-intensive tasks in RStudio Server</p>
 
-<ul class = 'build'>
+<ul>
 <li>Light Tasks
 
-<ul class = 'build'>
+<ul>
 <li>Submit Jobs</li>
 </ul></li>
 </ul></li>
@@ -4550,12 +4550,12 @@ slide:not(.current) .plotly.html-widget{
 
 </article></slide><slide class=""><hgroup><h2>Linux Commands</h2></hgroup><article  id="linux-commands">
 
-<ul class = 'build'>
+<ul>
 <li><p><code>sbatch</code>: submit a job to the cluster</p></li>
 <li><p><code>scancel</code>: cancel jobs</p></li>
 <li><p><code>squeue</code>: view jobs status</p>
 
-<ul class = 'build'>
+<ul>
 <li><a href='https://dashboard.hpcc.ucr.edu/' title=''>dashboard.hpcc.ucr.edu</a></li>
 </ul></li>
 <li><p><code>slurm_limits</code>: view what is available to you</p></li>
@@ -4563,10 +4563,10 @@ slide:not(.current) .plotly.html-widget{
 
 </article></slide><slide class=""><hgroup><h2>How I use the cluster?</h2></hgroup><article  id="how-i-use-the-cluster">
 
-<ul class = 'build'>
+<ul>
 <li><p>Code on my computer at a smaller scale</p>
 
-<ul class = 'build'>
+<ul>
 <li>Parallelize using my computer’s cores</li>
 </ul></li>
 <li><p>Scale it up for the cluster</p></li>
@@ -4578,14 +4578,14 @@ slide:not(.current) .plotly.html-widget{
 
 </article></slide><slide class=""><hgroup><h2>Submitting Jobs</h2></hgroup><article  id="submitting-jobs">
 
-<ul class = 'build'>
+<ul>
 <li><p>Use a bash script to specify the parameters for the cluster</p></li>
 <li><p>Add the following line at the end:</p></li>
 </ul>
 
 <pre class = 'prettyprint lang-bash'>Rscript NAME_OF_FILE.R</pre>
 
-<ul class = 'build'>
+<ul>
 <li>Submit the job with the line below:</li>
 </ul>
 
@@ -4616,47 +4616,47 @@ save(results, file = file_name, version = 2)</pre>
 
 </article></slide><slide class=""><hgroup><h2>How to parallelize your R Code</h2></hgroup><article  id="how-to-parallelize-your-r-code">
 
-<ul class = 'build'>
+<ul>
 <li><p><code>mclapply()</code></p>
 
-<ul class = 'build'>
+<ul>
 <li><p>Recommended for the cluster</p></li>
 <li><p>Has built-in <code>try()</code> function</p></li>
 </ul></li>
 <li><p><code>parLapply()</code></p>
 
-<ul class = 'build'>
+<ul>
 <li>Use if multiple nodes are involved</li>
 </ul></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Where to parallelize?</h2></hgroup><article  id="where-to-parallelize">
 
-<ul class = 'build'>
+<ul>
 <li><p>Identify loops or *apply functions</p>
 
-<ul class = 'build'>
+<ul>
 <li>Iterations must be independent of each other</li>
 </ul></li>
 <li><p>Identify bottlenecks</p>
 
-<ul class = 'build'>
+<ul>
 <li>Use benchmark R packages</li>
 </ul></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>How to speed up you R Code</h2></hgroup><article  id="how-to-speed-up-you-r-code">
 
-<ul class = 'build'>
+<ul>
 <li><p>Vectorize your R code</p></li>
 <li><p>Minimize loops</p>
 
-<ul class = 'build'>
+<ul>
 <li>Use <code>*apply</code> functions</li>
 </ul></li>
 <li><p>Use optimized functions</p>
 
-<ul class = 'build'>
+<ul>
 <li><code>colMeans()</code> and <code>rowMeans()</code></li>
 </ul></li>
 <li><p>Implement c++ via Rcpp</p></li>
@@ -4667,11 +4667,11 @@ save(results, file = file_name, version = 2)</pre>
 
 </article></slide><slide class=""><hgroup><h2>Simulation Study</h2></hgroup><article  id="simulation-study-1">
 
-<ul class = 'build'>
+<ul>
 <li><p>Show that Ordinary Least Squares provides consistent estimates</p></li>
 <li><p>Model: \(Y = \boldsymbol X^\mathrm T \boldsymbol \beta + \epsilon\)</p>
 
-<ul class = 'build'>
+<ul>
 <li><p>\(\boldsymbol \beta = (\beta_0, \beta_1, \beta_2, \beta_3)^\mathrm T = (5, 4, -5, -3)^\mathrm T\)</p></li>
 <li><p>\(\epsilon \sim N(0,3)\)</p></li>
 </ul></li>
@@ -4679,7 +4679,7 @@ save(results, file = file_name, version = 2)</pre>
 
 </article></slide><slide class=""><hgroup><h2>Simulation Parameters</h2></hgroup><article  id="simulation-parameters">
 
-<ul class = 'build'>
+<ul>
 <li><p>Number of Data set: 10000</p></li>
 <li><p>Number of Observations: 200</p></li>
 <li><p>\(\boldsymbol X \sim N\left(\left(-2,0,2\right)^\mathrm T, \boldsymbol I_3 \right)\)</p></li>
@@ -4688,7 +4688,7 @@ save(results, file = file_name, version = 2)</pre>
 
 </article></slide><slide class=""><hgroup><h2>Parallelization of Simulation</h2></hgroup><article  id="parallelization-of-simulation">
 
-<ul class = 'build'>
+<ul>
 <li><p>16 cores</p></li>
 <li><p>Each core will process around 625 data sets</p></li>
 </ul>
