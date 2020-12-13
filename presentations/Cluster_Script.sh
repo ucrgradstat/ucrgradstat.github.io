@@ -11,4 +11,4 @@
 #SBATCH --job-name="Cluster Job 1" # Name of the job, can be anything
 #SBATCH -p statsdept # statsdept is the only one the department of statistics students can use
 
-Rscript Parallel_Job.R # The command that tells Linux to process your R Scritp
+Rscript Parallel_Job.R # The command that tells Linux to process your R Script

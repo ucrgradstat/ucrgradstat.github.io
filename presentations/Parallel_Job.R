@@ -2,10 +2,10 @@
 Date_Time <- format(Sys.time(),"%Y-%m-%d-%H-%M") #Used as a unique identifier
 
 ## Setting WD ####
-setwd("~/rwork") # Setting working directory to rwork, were all the data is saved
+# ("~/rwork") # Setting working directory to rwork, were all the data is saved
 
 ## Install R Packages ####
-# install.packages("mvtrnorm")
+# install.packages("mvtrnorm") ## <----------- RUN THIS BEFORE RUNNING
 
 ## Loading R Packages ####
 library(parallel)
@@ -48,18 +48,38 @@ standard_data <- lapply(c(1:N), data_sim, # Using data_sim function to simulate 
 
 
 ## Obtaining Estimates ####
+start <- Sys.time()# Used for timing process
+standard_results <- lapply(standard_data, parallel_lm) # Using 1 core to process the data 
+print("Standard lapply")
+Sys.time()-start# Time it took
 
+start <- Sys.time()# Used for timing process
 parallel_results <- mclapply(standard_data, parallel_lm, # Using Multiple cores to process the data 
                              mc.cores = ncores) # Setting the number of cores to use
+print("mclapply")
+Sys.time()-start# Time it took
 
 ## Extracting Betas ####
+
+standard_beta <- matrix(ncol=4, nrow = N) # Creating a matrix for beta values 
 parallel_beta <- matrix(ncol=4, nrow = N) # Creating a matrix for beta values 
+for (i in 1:N){
+  standard_beta[i, ] <- standard_results[[i]]$coef #Extracting coefficients from lapply
+}
 for (i in 1:N){
   parallel_beta[i, ] <- parallel_results[[i]]$coef #Extracting coefficients from mclapply
 }
 
+## Average results
+print("From Standard lapply")
+colMeans(standard_beta)
+print("From mclapply")
+colMeans(parallel_beta)
+
+
 ## Saving Results ####
-parallel_save <- list(lm_res = parallel_results, betas = parallel_beta) # Creating a list or results
+standard_save <- list(lm_res = standard_results, betas = standard_beta) # Creating a list or results from mclapply
+parallel_save <- list(lm_res = parallel_results, betas = parallel_beta) # Creating a list or results from mclapply
 params <- list(N = N, # Creating a list of simulation parameters
                 nobs = nobs,
                 beta = beta,
@@ -67,7 +87,7 @@ params <- list(N = N, # Creating a list of simulation parameters
                 xsigs = xsigs,
                 sig = sig) 
 
-results <- list(parallel = parallel_save, data = standard_data, # Combining list
+results <- list(standard = standard_save, parallel = parallel_save, data = standard_data, # Combining list
                 parameters = params, Date_Time = Date_Time)
 
 save_dir <- paste("Results_", Date_Time, ".RData", sep="") # Creating file name, contains date-time
