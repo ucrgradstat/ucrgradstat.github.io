@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+permalink: /presentations/
+---
+
 ### HPCC Presentation 
 Date 12-18-2020
 Presenter Isaac Quintanilla Salinas
