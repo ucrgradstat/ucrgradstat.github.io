@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: UCR Statistics Graduate Student Association
+title: UCR Statistics GSA
 email: ucr.grad.stat@gmail.com
 description: 
 
@@ -46,3 +46,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - "*.Rmd"
