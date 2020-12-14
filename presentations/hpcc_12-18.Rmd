@@ -102,7 +102,7 @@ knitr::opts_chunk$set(eval = FALSE)
 
 - Use a bash script to specify the parameters for the cluster
 
-- Add the following line at the end:
+- Add the following line at the end of a bash script:
 
 ```{bash}
 Rscript NAME_OF_FILE.R
