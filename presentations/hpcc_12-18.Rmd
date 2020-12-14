@@ -233,7 +233,7 @@ save(results, file = file_name, version = 2)
 
 - [R Script](https://ucrgradstat.github.io/presentations/Parallel_Job.R)
 
-- [BASH Script](https://ucrgradstat.github.io/presentations/Cluster_Script.R)
+- [BASH Script](https://ucrgradstat.github.io/presentations/Cluster_Script.sh)
 
 # Thank You!
 
