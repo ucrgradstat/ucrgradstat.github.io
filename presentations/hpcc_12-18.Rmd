@@ -68,7 +68,7 @@ knitr::opts_chunk$set(eval = FALSE)
 
 - Do not do computationally-intensive tasks in RStudio Server
   - Light Tasks
-    - Submit Jobs
+  - Submit Jobs
 
 ## Linux Commands
 
@@ -230,6 +230,10 @@ save(results, file = file_name, version = 2)
 - 16 cores
 
 - Each core will process around 625 data sets 
+
+- [R Script](https://ucrgradstat.github.io/presentations/Parallel_Job.R)
+
+- [BASH Script](https://ucrgradstat.github.io/presentations/Cluster_Script.R)
 
 # Thank You!
 
