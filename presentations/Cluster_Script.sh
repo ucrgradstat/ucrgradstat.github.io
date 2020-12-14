@@ -7,7 +7,7 @@
 #SBATCH --time=01:00:00    # Time to run task, changes based on predicted time of task
 #SBATCH --output=my.stdout # Where to store the output, usually a standard output, I don't use it
 #SBATCH --mail-user=NETID@ucr.edu # Where to email information about job
-#SBATCH --mail-type=ALL # Not Sure, not necessary
+#SBATCH --mail-type=ALL # Not Sure
 #SBATCH --job-name="Cluster Job 1" # Name of the job, can be anything
 #SBATCH -p statsdept # statsdept is the only one the department of statistics students can use
 
