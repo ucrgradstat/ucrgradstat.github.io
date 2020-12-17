@@ -57,6 +57,9 @@ knitr::opts_chunk$set(eval = FALSE)
 
 - Terminal
   - ssh
+  
+- Jupyter Hub
+  - [https://jupyter.hpcc.ucr.edu/hub/](https://jupyter.hpcc.ucr.edu/hub/)
 
 ## RStudio Server
 
