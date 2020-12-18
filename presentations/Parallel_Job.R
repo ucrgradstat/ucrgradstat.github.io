@@ -4,18 +4,17 @@ Date_Time <- format(Sys.time(),"%Y-%m-%d-%H-%M") #Used as a unique identifier
 ## Setting WD ####
 # ("~/rwork") # Setting working directory to rwork, were all the data is saved
 
-## Install R Packages ####
-# install.packages("mvtrnorm") ## <----------- RUN THIS BEFORE RUNNING
-
 ## Loading R Packages ####
 library(parallel)
-library(mvtnorm)
+
 
 ## Functions ####
 
 data_sim <- function(seed, nobs, beta, sigma, xmeans, xsigs){ # Simulates the data set
   set.seed(seed) # Sets a seed
-  xrn <- rmvnorm(nobs, mean = xmeans, sigma = xsigs) # Simulates Predictors
+  xrn <- cbind(rnorm(nobs, mean = xmeans[1], sd = xsigs[1,1]),
+               rnorm(nobs, mean = xmeans[2], sd = xsigs[2,2]),
+               rnorm(nobs, mean = xmeans[3], sd = xsigs[3,3])) # Simulates Predictors
   xped <- cbind(rep(1,nobs),xrn) # Creating Design Matrix
   y <- xped %*% beta + rnorm(nobs ,0, sigma) # Simulating Y
   df <- data.frame(x=xrn, y=y) # Creating Data Frame

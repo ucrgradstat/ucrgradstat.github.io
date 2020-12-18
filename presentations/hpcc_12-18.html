@@ -4729,34 +4729,23 @@ save(results, file = file_name, version = 2)</pre>
 </article></slide><slide class=""><hgroup><h2>Executing Simulation Study</h2></hgroup><article  id="executing-simulation-study">
 
 <ol>
-<li><p>Download Documents</p>
-
-<ol>
-<li><p><a href='https://ucrgradstat.github.io/presentations/Parallel_Job.R' title=''>R Script</a></p></li>
-<li><p><a href='https://ucrgradstat.github.io/presentations/Cluster_Script.sh' title=''>BASH Script</a></p></li>
-</ol></li>
 <li><p>RStudio Server</p>
 
 <ol>
 <li><a href='https://rstudio.hpcc.ucr.edu/' title=''>https://rstudio.hpcc.ucr.edu/</a></li>
 <li>Login with credentials</li>
 </ol></li>
-<li><p>Upload Documents</p>
+<li><p>Download Documents in R Console</p>
 
 <ol>
-<li>Files Pane</li>
-<li>Upload Button</li>
-</ol></li>
-<li><p>R Script</p>
-
-<ol>
-<li>Line 8: Install R Package <code>mvtnorm</code></li>
+<li><p>Type: <code>download.file(&quot;https://ucrgradstat.github.io/presentations/Parallel_Job.R&quot;, &quot;Parallel_Job.R&quot;)</code></p></li>
+<li><p>Type: <code>download.file(&quot;https://ucrgradstat.github.io/presentations/Cluster_Script.sh&quot;, &quot;Cluster_Script.sh&quot;)</code></p></li>
 </ol></li>
 <li><p>Bash Script</p>
 
 <ol>
 <li>Line 9: Change to your email</li>
-<li>Line 12: Change to intel if needed</li>
+<li>Line 12: Change to <code>intel</code> or <code>short</code> if needed</li>
 </ol></li>
 <li><p>Submit Job</p>
 
