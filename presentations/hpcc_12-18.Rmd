@@ -11,6 +11,13 @@ subtitle: "with R Package Parallel"
 
 ---
 
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(eval = FALSE)
 ```
@@ -238,6 +245,43 @@ save(results, file = file_name, version = 2)
 - [R Script](https://ucrgradstat.github.io/presentations/Parallel_Job.R)
 
 - [BASH Script](https://ucrgradstat.github.io/presentations/Cluster_Script.sh)
+
+## Executing Simulation Study
+
+1. Download Documents
+
+    a. [R Script](https://ucrgradstat.github.io/presentations/Parallel_Job.R)
+
+    b. [BASH Script](https://ucrgradstat.github.io/presentations/Cluster_Script.sh)
+
+
+2. RStudio Server
+
+    a. [https://rstudio.hpcc.ucr.edu/](https://rstudio.hpcc.ucr.edu/)
+    b. Login with credentials
+
+
+3. Upload Documents
+
+    a. Files Pane
+    b. Upload Button
+
+
+4. R Script 
+
+    a. Line 8: Install R Package `mvtnorm` 
+
+5. Bash Script
+
+    a. Line 9: Change to your email
+    b. Line 12: Change to intel if needed
+  
+6. Submit Job
+
+    a. Console Pane
+    b. Terminal Tab
+    c. Type: `sbatch Cluster_Script.sh`
+
 
 # Thank You!
 

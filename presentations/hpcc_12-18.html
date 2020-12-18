@@ -4479,6 +4479,13 @@ slide:not(.current) .plotly.html-widget{
           </hgroup>
   </slide>
 
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
 <slide class=""><hgroup><h2>Outline</h2></hgroup><article  id="outline">
 
 <ul>
@@ -4718,6 +4725,47 @@ save(results, file = file_name, version = 2)</pre>
 <li><p><a href='https://ucrgradstat.github.io/presentations/Parallel_Job.R' title=''>R Script</a></p></li>
 <li><p><a href='https://ucrgradstat.github.io/presentations/Cluster_Script.sh' title=''>BASH Script</a></p></li>
 </ul>
+
+</article></slide><slide class=""><hgroup><h2>Executing Simulation Study</h2></hgroup><article  id="executing-simulation-study">
+
+<ol>
+<li><p>Download Documents</p>
+
+<ol>
+<li><p><a href='https://ucrgradstat.github.io/presentations/Parallel_Job.R' title=''>R Script</a></p></li>
+<li><p><a href='https://ucrgradstat.github.io/presentations/Cluster_Script.sh' title=''>BASH Script</a></p></li>
+</ol></li>
+<li><p>RStudio Server</p>
+
+<ol>
+<li><a href='https://rstudio.hpcc.ucr.edu/' title=''>https://rstudio.hpcc.ucr.edu/</a></li>
+<li>Login with credentials</li>
+</ol></li>
+<li><p>Upload Documents</p>
+
+<ol>
+<li>Files Pane</li>
+<li>Upload Button</li>
+</ol></li>
+<li><p>R Script</p>
+
+<ol>
+<li>Line 8: Install R Package <code>mvtnorm</code></li>
+</ol></li>
+<li><p>Bash Script</p>
+
+<ol>
+<li>Line 9: Change to your email</li>
+<li>Line 12: Change to intel if needed</li>
+</ol></li>
+<li><p>Submit Job</p>
+
+<ol>
+<li>Console Pane</li>
+<li>Terminal Tab</li>
+<li>Type: <code>sbatch Cluster_Script.sh</code></li>
+</ol></li>
+</ol>
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Thank You!</h2></hgroup><article  id="thank-you">
 
