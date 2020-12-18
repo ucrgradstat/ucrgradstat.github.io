@@ -184,12 +184,11 @@ save(results, file = file_name, version = 2)
 
   - Iterations must be independent of each other
   
-  
 - Identify bottlenecks
 
   - Use benchmark R packages
   
-## How to speed up you R Code
+## How to speed up you R Code?
 
 - Vectorize your R code
 
@@ -216,11 +215,13 @@ save(results, file = file_name, version = 2)
 
   - $\boldsymbol \beta = (\beta_0, \beta_1, \beta_2, \beta_3)^\mathrm T = (5, 4, -5, -3)^\mathrm T$
   
+  - $\boldsymbol X = (1, X_1, X_2, X_3)^\mathrm T$
+  
   - $\epsilon \sim N(0,3)$
 
 ## Simulation Parameters
 
-- Number of Data set: 10000
+- Number of Data sets: 10000
 
 - Number of Observations: 200
 
@@ -230,9 +231,9 @@ save(results, file = file_name, version = 2)
 
 ## Parallelization of Simulation
 
-- 16 cores
+- 8 cores
 
-- Each core will process around 625 data sets 
+- Each core will process around 1250 data sets 
 
 - [R Script](https://ucrgradstat.github.io/presentations/Parallel_Job.R)
 
@@ -240,5 +241,10 @@ save(results, file = file_name, version = 2)
 
 # Thank You!
 
+## Resources
+
+More information of parallel processing:
+
+[Link](https://ucrgradstat.github.io/stat_comp/hpcc/parallel_notebook.nb.html)
 
 

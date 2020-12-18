@@ -30,7 +30,7 @@ parallel_lm <- function(data){ # Applying a Ordinary Least Squares to data frame
 
 
 ## Parallel Parameters ####
-ncores <- 16 # Number of cpus to be used
+ncores <- 8 # Number of cpus to be used
 
 ## Simulation Parameters ####
 N <- 10000 # Number of Data sets

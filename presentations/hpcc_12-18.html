@@ -4531,6 +4531,11 @@ slide:not(.current) .plotly.html-widget{
 <ul>
 <li>ssh</li>
 </ul></li>
+<li>Jupyter Hub
+
+<ul>
+<li><a href='https://jupyter.hpcc.ucr.edu/hub/' title=''>https://jupyter.hpcc.ucr.edu/hub/</a></li>
+</ul></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>RStudio Server</h2></hgroup><article  id="rstudio-server">
@@ -4663,7 +4668,7 @@ save(results, file = file_name, version = 2)</pre>
 </ul></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>How to speed up you R Code</h2></hgroup><article  id="how-to-speed-up-you-r-code">
+</article></slide><slide class=""><hgroup><h2>How to speed up you R Code?</h2></hgroup><article  id="how-to-speed-up-you-r-code">
 
 <ul>
 <li><p>Vectorize your R code</p></li>
@@ -4691,6 +4696,7 @@ save(results, file = file_name, version = 2)</pre>
 
 <ul>
 <li><p>\(\boldsymbol \beta = (\beta_0, \beta_1, \beta_2, \beta_3)^\mathrm T = (5, 4, -5, -3)^\mathrm T\)</p></li>
+<li><p>\(\boldsymbol X = (1, X_1, X_2, X_3)^\mathrm T\)</p></li>
 <li><p>\(\epsilon \sim N(0,3)\)</p></li>
 </ul></li>
 </ul>
@@ -4698,7 +4704,7 @@ save(results, file = file_name, version = 2)</pre>
 </article></slide><slide class=""><hgroup><h2>Simulation Parameters</h2></hgroup><article  id="simulation-parameters">
 
 <ul>
-<li><p>Number of Data set: 10000</p></li>
+<li><p>Number of Data sets: 10000</p></li>
 <li><p>Number of Observations: 200</p></li>
 <li><p>\(\boldsymbol X \sim N\left(\left(-2,0,2\right)^\mathrm T, \boldsymbol I_3 \right)\)</p></li>
 <li><p>\(\boldsymbol I_3\): \(3\times 3\) Identity Matrix</p></li>
@@ -4707,13 +4713,19 @@ save(results, file = file_name, version = 2)</pre>
 </article></slide><slide class=""><hgroup><h2>Parallelization of Simulation</h2></hgroup><article  id="parallelization-of-simulation">
 
 <ul>
-<li><p>16 cores</p></li>
-<li><p>Each core will process around 625 data sets</p></li>
+<li><p>8 cores</p></li>
+<li><p>Each core will process around 1250 data sets</p></li>
 <li><p><a href='https://ucrgradstat.github.io/presentations/Parallel_Job.R' title=''>R Script</a></p></li>
 <li><p><a href='https://ucrgradstat.github.io/presentations/Cluster_Script.sh' title=''>BASH Script</a></p></li>
 </ul>
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Thank You!</h2></hgroup><article  id="thank-you"></article></slide>
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Thank You!</h2></hgroup><article  id="thank-you">
+
+</article></slide><slide class=""><hgroup><h2>Resources</h2></hgroup><article  id="resources">
+
+<p>More information of parallel processing:</p>
+
+<p><a href='https://ucrgradstat.github.io/stat_comp/hpcc/parallel_notebook.nb.html' title=''>Link</a></p></article></slide>
 
 
   <slide class="backdrop"></slide>
