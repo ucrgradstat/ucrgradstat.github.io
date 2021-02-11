@@ -1,0 +1,23 @@
+
+name: "stat_comp"
+title: "Statistical Computing"
+base_url: https://ucrgradstat.github.io/
+description: |
+  Statistical Computing
+output_dir: "docs"
+theme: theme.css
+navbar:
+  search: true
+  right:
+    - text: "GSS"
+      href: gss.html
+    - text: "Newsletter"
+      href: newsletter.html
+    - text: "Resources"
+      href: resources.html
+    - text: "Officers"
+      href: officers.html
+    - icon: fa-github fa-lg
+      href: https://github.com/ucrgradstat/
+output: distill::distill_article
+exclude: ["hpcc/*_cache"]

@@ -1,0 +1,23 @@
+---
+title: "Newsletter"
+description: |
+
+date: "`r format(Sys.time(),'%m-%d-%Y')`"
+site: distill::distill_website
+---
+
+## Winter 2021
+
+Upcoming
+
+## Fall 2020
+
+[Newsletter](PDFS/F20.pdf)
+
+## Spring 2020
+
+[Newsletter](PDFS/S20.pdf)
+
+## Winter 2020
+
+[Newsletter](PDFS/W20.pdf)

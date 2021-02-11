@@ -1,0 +1,11 @@
+---
+title: "Resources"
+description: |
+
+date: "`r format(Sys.time(),'%m-%d-%Y')`"
+site: distill::distill_website
+---
+
+### Statistical Computing
+
+[ucrgradstat.github.io/stat_comp](https://ucrgradstat.github.io/stat_comp/)

@@ -1,0 +1,32 @@
+---
+title: "Officers"
+description: |
+
+date: "`r format(Sys.time(),'%m-%d-%Y')`"
+site: distill::distill_website
+---
+
+
+### President
+
+Isaac Quintanilla Salinas
+
+### Vice-President
+
+Rebecca Kurtz-Garcia
+
+### Treasurer
+
+Brian Tran
+
+### Secretary
+
+Bradley Lubich
+
+### Webmaster
+
+Luke Klein
+
+### GSC Representative
+
+Kim Pham
