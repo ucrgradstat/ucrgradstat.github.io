@@ -12,7 +12,7 @@ The GSS welcomes, and **ENCOURAGES**, anyone who is interested to attend. This i
 
 ## Upcoming Presentations
 
-#### Parallel Computing with HPCC
+### Parallel Computing with HPCC
 
 Presenter: Isaac Quintanilla Salinas
 
@@ -22,79 +22,79 @@ Date: 3/11/2021
 
 ## Past Presentations
 
-#### Real-Time Classification of Atrial Fibrillation using ECG Characteristics
+### Real-Time Classification of Atrial Fibrillation using ECG Characteristics
 
 Presenter: Jericho Lawson
 
 Date: 2/4/2021
 
-#### Introduction to Tidyverse
+### Introduction to Tidyverse
 
 Presenter: Kim Phan
 
 Date: 1/28/2021
 
-#### SEMI-PARAMETRIC ESTIMATION IN A TWO-COMPONENT LOCATION-SHIFTED MIXTURE MODEL WITH PARTIALLY KNOWN COMPONENT LABELS
+### SEMI-PARAMETRIC ESTIMATION IN A TWO-COMPONENT LOCATION-SHIFTED MIXTURE MODEL WITH PARTIALLY KNOWN COMPONENT LABELS
 Presenter: Bradley Lubich
 
 Date: 12/10/2020
 
-#### HOW TO PREPARE FOR DATA SCIENCE INTERNSHIPS: PREREQUISITES, INTERVIEWS AND PROJECTS
+### HOW TO PREPARE FOR DATA SCIENCE INTERNSHIPS: PREREQUISITES, INTERVIEWS AND PROJECTS
 Presenter: Jinhui (Jerry) Yang
 
 Date: 11/05/2020
 
-#### ASYMMETRIC LOSS FUNCTIONS IN MCMC ESTIMATION
+### ASYMMETRIC LOSS FUNCTIONS IN MCMC ESTIMATION
 Presenter: Deepak Bastola
 
 Date: 06/02/2020
 
-#### THE RCPP PACKAGE: INTEGRATING R AND C++
+### THE RCPP PACKAGE: INTEGRATING R AND C++
 Presenter: Tyler Brannan
 
 Date: 05/05/2020
 
-#### VARYING-COEFFICIENT MODELS
+### VARYING-COEFFICIENT MODELS
 Presenter: Isaac Quintanilla Salinas
 
 Date: 04/21/2020
 
-#### A BAYESIAN LONGITUDINAL ANALYSIS OF COUNT DATA WITH GAUSSIAN PROCESSES
+### A BAYESIAN LONGITUDINAL ANALYSIS OF COUNT DATA WITH GAUSSIAN PROCESSES
 Presenter: Samantha VanSchalkwyk
 
 Date: 03/12/2020
 
-#### BUILDING SIMULTANEOUS CONFIDENCE BANDS FOR FUNCTIONS
+### BUILDING SIMULTANEOUS CONFIDENCE BANDS FOR FUNCTIONS
 Presenter: Jinhui Yang
 
 Date: 03/05/2020
 
-#### JOINT SURVIVAL-LONGITUDINAL MODELING
+### JOINT SURVIVAL-LONGITUDINAL MODELING
 Presenter: Tyler Brannan
 
 Date: 02/27/2020
 
-#### Data Science Internships
+### Data Science Internships
 Presenter: Dong Ji
 
 Date: 01/30/2020
 
-#### Janssen Pharmaceuticals Internships Recap and Joint Modeling of Longitudinal and Time-to-Event Data
+### Janssen Pharmaceuticals Internships Recap and Joint Modeling of Longitudinal and Time-to-Event Data
 Presenter: Luke Klein
 
 Date: 01/16/2020
 
-#### Divide-and-Conquer for Expectile Regression Processes
+### Divide-and-Conquer for Expectile Regression Processes
 Presenter: Zhen Zhang
 
 Date: 12/06/2019
 
-#### Identifying the Best Predictive Biomarker in Pharmacogenomics
+### Identifying the Best Predictive Biomarker in Pharmacogenomics
 Presenter: Song Zhai
 
 Date: 11/22/2019
 
-#### Bayesian Sensitivity Analysis to Adjust for Unmeasured Confounder in Causal Inference
+### Bayesian Sensitivity Analysis to Adjust for Unmeasured Confounder in Causal Inference
 Presenter: Bibby Zhou
 
 Date: 11/08/2019
