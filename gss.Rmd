@@ -12,7 +12,27 @@ The GSS welcomes, and **ENCOURAGES**, anyone who is interested to attend. This i
 
 ## Upcoming Presentations
 
+#### Parallel Computing with HPCC
+
+Presenter: Isaac Quintanilla Salinas
+
+Date: 3/11/2021
+
+[Presentation](presentations/hpcc_3-11.html)
+
 ## Past Presentations
+
+#### Real-Time Classification of Atrial Fibrillation using ECG Characteristics
+
+Presenter: Jericho Lawson
+
+Date: 2/4/2021
+
+#### Introduction to Tidyverse
+
+Presenter: Kim Phan
+
+Date: 1/28/2021
 
 #### SEMI-PARAMETRIC ESTIMATION IN A TWO-COMPONENT LOCATION-SHIFTED MIXTURE MODEL WITH PARTIALLY KNOWN COMPONENT LABELS
 Presenter: Bradley Lubich
