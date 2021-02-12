@@ -6,6 +6,15 @@ date: "`r format(Sys.time(),'%m-%d-%Y')`"
 site: distill::distill_website
 ---
 
+### UCR Statistics Website
+
+[statistics.ucr.edu](https://statistics.ucr.edu/)
+
+### UCR GSA
+
+[gsa.ucr.edu](https://gsa.ucr.edu/)
+
+
 ### Statistical Computing
 
 [ucrgradstat.github.io/stat_comp](https://ucrgradstat.github.io/stat_comp/)
