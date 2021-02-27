@@ -40,7 +40,7 @@ knitr::opts_chunk$set(eval = FALSE)
 - job: A task a computer must complete
 
 - bash script: tells the computer what to do
-
+https://ucrgradstat.github.io/stat_comp/
 ## My Cluster Usage
 
 - Computationally Intensive
@@ -264,8 +264,7 @@ save(results, file = file_name, version = 2)
 3. Bash Script
 
     a. Line 9: Change to your email
-    b. Line 12: Change to `intel` or `short` if needed
-  
+
 4. Submit Job
 
     a. Console Pane
@@ -280,5 +279,9 @@ save(results, file = file_name, version = 2)
 More information of parallel processing:
 
 [Link](https://ucrgradstat.github.io/stat_comp/hpcc/parallel_notebook.nb.html)
+
+GSA Statistical Computing Website
+
+[ucrgradstat.github.io/stat_comp](https://ucrgradstat.github.io/stat_comp/)
 
 

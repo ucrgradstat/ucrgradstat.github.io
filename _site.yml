@@ -3,7 +3,7 @@ name: "ucrgradstat"
 title: "UCR Statistics GSA"
 base_url: https://ucrgradstat.github.io/
 description: |
-  Statistical Computing
+  UCR Statistics GSA Website
 output_dir: "docs"
 theme: theme.css
 navbar:
