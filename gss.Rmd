@@ -34,6 +34,8 @@ Presenter: Kim Phan
 
 Date: 1/28/2021
 
+[Presentation](PDFS/GSS Presentation_ About Tidyverse.pdf)
+
 ### SEMI-PARAMETRIC ESTIMATION IN A TWO-COMPONENT LOCATION-SHIFTED MIXTURE MODEL WITH PARTIALLY KNOWN COMPONENT LABELS
 Presenter: Bradley Lubich
 
