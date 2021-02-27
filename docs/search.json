@@ -6,14 +6,14 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\nThe Graduate Students Seminar (GSS) series is an opportunity for graduate students in our department to showcase some of the cool things they are doing, gain presentation practice, and get to know each other. The presentations can be on a variety of topics, including research, projects, internships, a topic you wanted to investigate, a paper that you found interesting, and more. Anything that is appropriate for the graduate-student level audience that could be of interest to the graduate students of this department is welcomed.\nThe GSS welcomes, and ENCOURAGES, anyone who is interested to attend. This includes undergraduates, faculty, and staff. This is open to ALL graduate students. We are hoping to get a variety of topics and perspectives. Please email ucr.grad.stat@gmail.com your name as soon as possible if you would be willing to put together a presentation, we would be delighted to have you.\nUpcoming Presentations\nParallel Computing with HPCC\nPresenter: Isaac Quintanilla Salinas\nDate: 3/11/2021\nPresentation\nPast Presentations\nReal-Time Classification of Atrial Fibrillation using ECG Characteristics\nPresenter: Jericho Lawson\nDate: 2/4/2021\nIntroduction to Tidyverse\nPresenter: Kim Phan\nDate: 1/28/2021\nSEMI-PARAMETRIC ESTIMATION IN A TWO-COMPONENT LOCATION-SHIFTED MIXTURE MODEL WITH PARTIALLY KNOWN COMPONENT LABELS\nPresenter: Bradley Lubich\nDate: 12/10/2020\nHOW TO PREPARE FOR DATA SCIENCE INTERNSHIPS: PREREQUISITES, INTERVIEWS AND PROJECTS\nPresenter: Jinhui (Jerry) Yang\nDate: 11/05/2020\nASYMMETRIC LOSS FUNCTIONS IN MCMC ESTIMATION\nPresenter: Deepak Bastola\nDate: 06/02/2020\nTHE RCPP PACKAGE: INTEGRATING R AND C++\nPresenter: Tyler Brannan\nDate: 05/05/2020\nVARYING-COEFFICIENT MODELS\nPresenter: Isaac Quintanilla Salinas\nDate: 04/21/2020\nA BAYESIAN LONGITUDINAL ANALYSIS OF COUNT DATA WITH GAUSSIAN PROCESSES\nPresenter: Samantha VanSchalkwyk\nDate: 03/12/2020\nBUILDING SIMULTANEOUS CONFIDENCE BANDS FOR FUNCTIONS\nPresenter: Jinhui Yang\nDate: 03/05/2020\nJOINT SURVIVAL-LONGITUDINAL MODELING\nPresenter: Tyler Brannan\nDate: 02/27/2020\nData Science Internships\nPresenter: Dong Ji\nDate: 01/30/2020\nJanssen Pharmaceuticals Internships Recap and Joint Modeling of Longitudinal and Time-to-Event Data\nPresenter: Luke Klein\nDate: 01/16/2020\nDivide-and-Conquer for Expectile Regression Processes\nPresenter: Zhen Zhang\nDate: 12/06/2019\nIdentifying the Best Predictive Biomarker in Pharmacogenomics\nPresenter: Song Zhai\nDate: 11/22/2019\nBayesian Sensitivity Analysis to Adjust for Unmeasured Confounder in Causal Inference\nPresenter: Bibby Zhou\nDate: 11/08/2019\n\n\n\n",
-      "last_modified": "2021-02-11T18:35:00-08:00"
+      "last_modified": "2021-02-26T16:33:29-08:00"
     },
     {
       "path": "index.html",
       "title": "Welcome!",
       "author": [],
       "contents": "\nWe are still working on creating the website. We will have it ready soon.\n\n\n\n",
-      "last_modified": "2021-02-11T18:35:00-08:00"
+      "last_modified": "2021-02-26T16:33:30-08:00"
     },
     {
       "path": "newsletter.html",
@@ -21,7 +21,7 @@
       "author": [],
       "date": "`r format(Sys.time(),'%m-%d-%Y')`",
       "contents": "\nWinter 2021\nUpcoming\nFall 2020\nNewsletter\nSpring 2020\nNewsletter\nWinter 2020\nNewsletter\n\n\n\n",
-      "last_modified": "2021-02-11T18:35:00-08:00"
+      "last_modified": "2021-02-26T16:33:30-08:00"
     },
     {
       "path": "officers.html",
@@ -29,13 +29,13 @@
       "author": [],
       "date": "`r format(Sys.time(),'%m-%d-%Y')`",
       "contents": "\nPresident\nIsaac Quintanilla Salinas\nVice-President\nRebecca Kurtz-Garcia\nTreasurer\nBrian Tran\nSecretary\nBradley Lubich\nWebmaster\nLuke Klein\nGSC Representative\nKim Pham\n\n\n\n",
-      "last_modified": "2021-02-11T18:35:00-08:00"
+      "last_modified": "2021-02-26T16:33:30-08:00"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\nUCR Statistics GSA Website Repository\nThis Repository contains all the files to construct the website: ucrgradstat.github.io/stat_comp/\nBuilding the Website\nThe website is a collection of R Markdown files. The website is built using the R package distill. Make changes to R Markdown files to update the website. Then use the code below to build the website:\nrmarkdown::render_site(encoding = 'UTF-8')\nYou may also build the website from the build tab. Make sure to build the website before pushing to GitHub.\nWebsite Documents\nOther than the README.md file and tutorials, all the pages with this website were constructed with R Markdown Files. The three components the R Markdown files needed in the yaml header were the “title”, “description”, and “site”. The “description” line is needed to make the document searchable. The “site” line must follow what is below:\nsite: distill:distill_website\nConfiguring _site.yml\nThe _site.yml file contains all the information needed to build the website. Make sure to keep the following lines:\nbase_url: https://ucrgradstat.github.io/stat_comp\noutput_dir: \"docs\"\nThese lines ensure the website is build popularly. Additionally, make sure to keep the .nojekyll in the repository.\nTips for Building Website\nMake sure to have README.html\nUse .gitignore to ignore cache folders from R Markdown files\nUse theme.css to change the appearance of the website\nTutorials\nThe tutorials can be any format. However, to host it on the website, an html file is needed. If students submit an R Markdown file, compile it and use the html file.\n\n\n",
-      "last_modified": "2021-02-11T18:35:01-08:00"
+      "last_modified": "2021-02-26T16:33:31-08:00"
     },
     {
       "path": "resources.html",
@@ -43,7 +43,7 @@
       "author": [],
       "date": "`r format(Sys.time(),'%m-%d-%Y')`",
       "contents": "\nUCR Statistics Website\nstatistics.ucr.edu\nUCR GSA\ngsa.ucr.edu\nStatistical Computing\nucrgradstat.github.io/stat_comp\n\n\n\n",
-      "last_modified": "2021-02-11T18:35:01-08:00"
+      "last_modified": "2021-02-26T16:33:31-08:00"
     }
   ],
   "collections": []
