@@ -17,6 +17,7 @@ The GSS welcomes, and **ENCOURAGES**, anyone who is interested to attend. This i
 Presenter: Isaac Quintanilla Salinas
 
 Date: 3/11/2021
+Time: 11 AM PST
 
 [Presentation](presentations/hpcc_3-11.html)
 
