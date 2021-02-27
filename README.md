@@ -1,6 +1,6 @@
 # UCR Statistics GSA Website Repository
 
-This Repository contains all the files to construct the website: [ucrgradstat.github.io/stat_comp/](https://ucrgradstat.github.io/)
+This Repository contains all the files to construct the website: [ucrgradstat.github.io/](https://ucrgradstat.github.io/)
 
 ## Building the Website
 
