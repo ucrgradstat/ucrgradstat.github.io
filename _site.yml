@@ -7,7 +7,6 @@ description: |
 output_dir: "docs"
 theme: theme.css
 navbar:
-  search: true
   right:
     - text: "GSS"
       href: gss.html

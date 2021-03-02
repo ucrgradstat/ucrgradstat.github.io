@@ -6,6 +6,5 @@ site: distill::distill_website
 ---
 
 
+The Statistics GSA exists to advance the academic, professional, and social lives of current and future statistics graduate students at the University of California, Riverside.  We also aim to encourage collaboration  among students that are both within and outside of the statistics department.
 
-We are still working on creating the website.
-We will have it ready soon.
