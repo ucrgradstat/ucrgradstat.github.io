@@ -4,7 +4,7 @@ This Repository contains all the files to construct the website: [ucrgradstat.gi
 
 ## Building the Website
 
-The website is a collection of R Markdown files. The website is built using the R package [distill](https://rstudio.github.io/distill/). Make changes to R Markdown files to update the website. Then use the code below to build the website:
+The website is a collection of R Markdown files. Make changes to R Markdown files, _site.yml, and other files to update the website. Then use the code below to build the website:
 
 ```
 rmarkdown::render_site(encoding = 'UTF-8')
@@ -14,18 +14,20 @@ You may also build the website from the build tab. Make sure to build the websit
 
 ## Website Documents
 
-Other than the README.md file and tutorials, all the pages with this website were constructed with R Markdown Files.  The three components the R Markdown files needed in the yaml header were the "title", "description", and "site". The "description" line is needed to make the document searchable. The "site" line must follow what is below:
+Other than the README.md file and tutorials, all the pages with this website were constructed with R Markdown Files. The two components the R Markdown files needed in the yaml header were the "title" and "output". The "output" line must follow what is below:
 
 ```
-site: distill:distill_website
+site: html_document
 ```
+
+The main page (index.Rmd) includes a header image. The output is slightly different. 
 
 ## Configuring `_site.yml`
 
 The `_site.yml` file contains all the information needed to build the website. Make sure to keep the following lines:
 
 ```
-base_url: https://ucrgradstat.github.io/stat_comp
+base_url: https://ucrgradstat.github.io/
 output_dir: "docs"
 ```
 These lines ensure the website is build popularly. Additionally, make sure to keep the `.nojekyll` in the repository.
@@ -37,10 +39,7 @@ These lines ensure the website is build popularly. Additionally, make sure to ke
 
 - Use `.gitignore` to ignore cache folders from R Markdown files
 
-- Use `theme.css` to change the appearance of the website
+- Use `styles.css` to change the appearance of the website
 
-## Tutorials
-
-The tutorials can be any format. However, to host it on the website, an html file is needed. If students submit an R Markdown file, compile it and use the html file.
 
 
