@@ -1,9 +1,6 @@
 ---
 title: "GSS"
-description: |
-
-date: "`r Sys.Date()`"
-site: distill::distill_website
+output: html_document
 ---
 
 The Graduate Students Seminar (GSS) series is an opportunity for graduate students in our department to showcase some of the cool things they are doing, gain presentation practice, and get to know each other. The presentations can be on a variety of topics, including research, projects, internships, a topic you wanted to investigate, a paper that you found interesting, and more. Anything that is appropriate for the graduate-student level audience that could be of interest to the graduate students of this department is welcomed.
@@ -11,6 +8,8 @@ The Graduate Students Seminar (GSS) series is an opportunity for graduate studen
 The GSS welcomes, and **ENCOURAGES**, anyone who is interested to attend. This includes undergraduates, faculty, and staff. This is open to ALL graduate students. We are hoping to get a variety of topics and perspectives. Please email ucr.grad.stat@gmail.com your name as soon as possible if you would be willing to put together a presentation, we would be delighted to have you.
 
 ## Upcoming Presentations
+
+## Past Presentations
 
 ### Parallel Computing with HPCC
 

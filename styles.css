@@ -1,0 +1,104 @@
+h1 {
+  color:    #003DA5;
+}
+
+h2 {
+  color:    #003DA5;
+}
+
+h3 {
+  color:    #003DA5;
+}
+
+body {
+  color: black;
+  font-size: 20px;
+}
+
+.navbar {
+    background-color: #003DA5;
+    border-color: #003DA5;
+    font-color: white;
+    font-size: 20px;
+}
+
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+    background-color: #003DA5;
+    color: white;
+}
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #009CDE;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #003DA5;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #003DA5;
+}
+
+
+.nav.navbar-nav li a {
+    color: white;
+}
+
+
+.footer {
+  padding-top: 1em;
+  color:       #003DA5;
+  text-size:        15px;
+  text-align:       center;
+  hover-color:      white;
+  bkgd-color:       #0F2E3D;
+}
+
+
+
+
+/* -----------HERO IMAGE AT TOP OF PAGE -----------*/
+
+/* LARGE HERO IMAGE AT TOP OF PAGE*/
+
+.hero-image {
+    position: relative;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    /* liner gradient tints the image darker for readability*/
+    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(UCR.jpeg); 
+    height: 400px;
+    background-size: cover;
+    background-color: black;
+    background-position: center center;
+    display: flex; /* Change to `display: none` for no hero image */
+    justify-content: center;
+    align-items: center;
+}
+
+.top-text {
+  position: relative;
+  font-size: 34px;
+  padding-bottom: 0.5em
+  text-transform: uppercase;
+  text-align: center;
+  display: block; /* Change to `display: none` for no top text */
+  color:  	 	#DCDCDC;
+}
+
+.bottom-text {
+  position: relative;
+  letter-spacing: 0.065em;
+  line-height: 1em;
+  font-size: 68px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block; /* Change to `display: none` for no bottom text */
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}

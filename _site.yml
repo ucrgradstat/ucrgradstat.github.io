@@ -5,8 +5,10 @@ base_url: https://ucrgradstat.github.io/
 description: |
   UCR Statistics GSA Website
 output_dir: "docs"
-theme: theme.css
 navbar:
+  left:
+    - text: "Home"
+      href: index.html
   right:
     - text: "GSS"
       href: gss.html
@@ -16,7 +18,11 @@ navbar:
       href: resources.html
     - text: "Officers"
       href: officers.html
-    - icon: fa-github fa-lg
+    - icon: fab fa-github fa-lg
       href: https://github.com/ucrgradstat/
-output: distill::distill_article
-exclude: ["hpcc/*_cache"]
+output: 
+  html_document:
+    css: styles.css
+    include:
+      after_body: _footer.html
+

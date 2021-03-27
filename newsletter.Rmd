@@ -1,14 +1,15 @@
 ---
 title: "Newsletter"
-description: |
-
-date: "`r format(Sys.time(),'%m-%d-%Y')`"
-site: distill::distill_website
+output: html_document
 ---
+
+## Spring 2021
+
+*Upcoming ...*
 
 ## Winter 2021
 
-Upcoming
+[Newsletter](PDFS/W21.pdf)
 
 ## Fall 2020
 
