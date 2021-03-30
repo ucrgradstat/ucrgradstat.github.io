@@ -20,8 +20,6 @@ Time: 11 AM PST
 
 [Presentation](presentations/hpcc_3-11.html)
 
-## Past Presentations
-
 ### Real-Time Classification of Atrial Fibrillation using ECG Characteristics
 
 Presenter: Jericho Lawson
