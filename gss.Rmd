@@ -11,12 +11,23 @@ The GSS welcomes, and **ENCOURAGES**, anyone who is interested to attend. This i
 
 ## Past Presentations
 
+### Outlier Detection for Sparse Functional Data with Cellwise Contamination
+
+Presenter: Xiao Gao
+
+Date: 4/30/2021
+
+### An Introduction to Joint Models of Longitudinal and Time-to-Event Outcomes
+
+Presenter: Debaleena Sain
+
+Date: 4/23/2021
+
 ### Parallel Computing with HPCC
 
 Presenter: Isaac Quintanilla Salinas
 
 Date: 3/11/2021
-Time: 11 AM PST
 
 [Presentation](presentations/hpcc_3-11.html)
 
