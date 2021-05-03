@@ -25,7 +25,7 @@ body {
 
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
-    background-color: #003DA5;
+    background-color: #009CDE;
     color: white;
 }
 .navbar .navbar-nav > .active > a,
@@ -58,6 +58,35 @@ body {
   bkgd-color:       #0F2E3D;
 }
 
+
+
+a.dropdown-toggle:hover {
+  background-color: #009CDE !important;
+}
+
+/*Dropdown menu color*/
+.navbar-default .dropdown-menu {
+  background-color: #2D2D29;
+}
+
+/*Dropdowm menu hover*/
+  .navbar-default .dropdown-menu>li>a:hover {
+    background-color: #003DA5;
+  }
+
+/*Dropdown Menu selected*/ 
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover{
+      color: white;
+      background-color: #009CDE;
+  }
+/*Dropdown sub-Menu selected*/ 
+  
+.navbar-default .dropdown-menu>.active>a {
+    color: white !important;
+    background-color: #003DA5;
+}
 
 
 

@@ -15,7 +15,13 @@ navbar:
     - text: "Newsletter"
       href: newsletter.html
     - text: "Resources"
-      href: resources.html
+      menu:
+        - text: "Statistical"
+          href: statistical.html
+        - text: "University"
+          href: university.html
+        - text: "Career"
+          href: career.html
     - text: "Officers"
       href: officers.html
     - icon: fab fa-github fa-lg

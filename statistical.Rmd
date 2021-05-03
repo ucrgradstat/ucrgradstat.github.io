@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Statistical"
 output: html_document
 ---
 
@@ -7,9 +7,6 @@ output: html_document
 
 [statistics.ucr.edu](https://statistics.ucr.edu/)
 
-### UCR GSA
-
-[gsa.ucr.edu](https://gsa.ucr.edu/)
 
 
 ### Statistical Computing
