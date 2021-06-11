@@ -5,7 +5,7 @@ output: html_document
 
 ## Spring 2021
 
-*Upcoming ...*
+[Newsletter](PDFS/S21.pdf)
 
 ## Winter 2021
 
