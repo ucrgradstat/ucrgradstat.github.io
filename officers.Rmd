@@ -6,7 +6,7 @@ output: html_document
 
 ### President
 
-Isaac Quintanilla Salinas
+Bradley Lubich
 
 ### Vice-President
 
@@ -14,16 +14,9 @@ Rebecca Kurtz-Garcia
 
 ### Treasurer
 
-Brian Tran
+Jericho Lawson
 
 ### Secretary
 
-Bradley Lubich
+Brian Tran
 
-### Webmaster
-
-Luke Klein
-
-### GSC Representative
-
-Kim Pham
