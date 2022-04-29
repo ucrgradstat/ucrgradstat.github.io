@@ -2,123 +2,116 @@
 title: "Parallel Processing for Statistics"
 author: "Isaac Quintanilla Salinas"
 date: "12/18/2020"
-output: 
-  ioslides_presentation:
-    widescreen: yes
-    df_print: paged
-    transition: 0.01
+format: revealjs
 subtitle: "with R Package Parallel"
-
 ---
 
+```{=html}
 <style>
 slides > slide {
   overflow-x: auto !important;
   overflow-y: auto !important;
 }
 </style>
-
+```
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(eval = FALSE)
 ```
 
-## Outline  
+## Outline
 
-- Introduction
+-   Introduction
 
-- Cluster
+-   Cluster
 
-- Parallel Processing in R
+-   Parallel Processing in R
 
-- Simulation Study
-
+-   Simulation Study
 
 # Introduction
 
 ## Terminology
 
-- job: A task a computer must complete
+-   job: A task a computer must complete
 
-- bash script: tells the computer what to do
+-   bash script: tells the computer what to do
 
 ## My Cluster Usage
 
-- Computationally Intensive
+-   Computationally Intensive
 
-- Use R and C++ (via Rcpp)
-
+-   Use R and C++ (via Rcpp)
 
 # HPCC Cluster
 
 ## How do I view the cluster?
 
-- Virtual Desktop Computer
-  - Set number of cores (max 32 cpus)
-  - Set RAM (max 128 GB)
-  - Set storage (20 GB)
+-   Virtual Desktop Computer
+    -   Set number of cores (max 32 cpus)
+    -   Set RAM (max 128 GB)
+    -   Set storage (20 GB)
 
 ## How to access the cluster?
 
-- RStudio Server
-  - [https://rstudio.hpcc.ucr.edu/](https://rstudio.hpcc.ucr.edu/)
-
-- Terminal
-  - ssh
-  
-- Jupyter Hub
-  - [https://jupyter.hpcc.ucr.edu/hub/](https://jupyter.hpcc.ucr.edu/hub/)
+-   RStudio Server
+    -   <https://rstudio.hpcc.ucr.edu/>
+-   Terminal
+    -   ssh
+-   Jupyter Hub
+    -   <https://jupyter.hpcc.ucr.edu/hub/>
 
 ## RStudio Server
 
-- Edit any text document
+-   Edit any text document
 
-- Submit jobs
+-   Submit jobs
 
-- Upload/Download Data or Documents
+-   Upload/Download Data or Documents
 
-- Do not do computationally-intensive tasks in RStudio Server
-  - Light Tasks
-  - Submit Jobs
+-   Do not do computationally-intensive tasks in RStudio Server
+
+    -   Light Tasks
+    -   Submit Jobs
 
 ## Linux Commands
 
-- `sbatch`: submit a job to the cluster
+-   `sbatch`: submit a job to the cluster
 
-- `scancel`: cancel jobs
+-   `scancel`: cancel jobs
 
-- `squeue`: view jobs status
-  - [dashboard.hpcc.ucr.edu](https://dashboard.hpcc.ucr.edu/)
-  
-- `slurm_limits`: view what is available to you
-  
+-   `squeue`: view jobs status
+
+    -   [dashboard.hpcc.ucr.edu](https://dashboard.hpcc.ucr.edu/)
+
+-   `slurm_limits`: view what is available to you
+
 ## How I use the cluster?
 
-- Code on my computer at a smaller scale
+-   Code on my computer at a smaller scale
 
-  - Parallelize using my computer's cores
+    -   Parallelize using my computer's cores
 
-- Scale it up for the cluster
+-   Scale it up for the cluster
 
-- Have an R Script do everything for me
+-   Have an R Script do everything for me
 
-- Save all results in an RData file 
+-   Save all results in an RData file
 
-- Use the `try()` function to catch errors
+-   Use the `try()` function to catch errors
 
-- Use RProjects
-
+-   Use RProjects
 
 ## Submitting Jobs
 
-- Use a bash script to specify the parameters for the cluster
+-   Use a bash script to specify the parameters for the cluster
 
-- Add the following line at the end of a bash script:
+-   Add the following line at the end of a bash script:
 
 ```{bash}
 Rscript NAME_OF_FILE.R
 ```
 
-- Submit the job with the line below:
+-   Submit the job with the line below:
 
 ```{bash}
 sbatch NAME_OF_BASH.sh
@@ -127,7 +120,7 @@ sbatch NAME_OF_BASH.sh
 ## Anatomy of Bash Script
 
 ```{bash}
-#!/bin/bash -l 
+#!/bin/bash
 
 #SBATCH --nodes=1 # Setting the number of nodes, usually 1 node is used
 #SBATCH --ntasks=1 # Setting the number of tasks, usually 1 task is used
@@ -166,112 +159,114 @@ file_name <- paste("Results_", date_time, ".RData",sep = "")
 save(results, file = file_name, version = 2)
 ```
 
-
 # Parallel Processing in R
 
 ## How to parallelize your R Code
 
-- `mclapply()`
+-   `mclapply()`
 
-  - Recommended for the cluster
-  
-  - Has built-in `try()` function
-  
-  - Replace any `lapply()` with `mclapply()` and add `mc.cores=` argument.
+    -   Recommended for the cluster
 
-- `parLapply()`
+    -   Has built-in `try()` function
 
-  - Use if multiple nodes are involved
-  
-  - Use if on Windows PC
+    -   Replace any `lapply()` with `mclapply()` and add `mc.cores=` argument.
+
+-   `parLapply()`
+
+    -   Use if multiple nodes are involved
+
+    -   Use if on Windows PC
 
 ## Where to parallelize?
 
-- Identify loops or *apply functions
+-   Identify loops or \*apply functions
 
-  - Iterations must be independent of each other
-  
-- Identify bottlenecks
+    -   Iterations must be independent of each other
 
-  - Use benchmark R packages
-  
+-   Identify bottlenecks
+
+    -   Use benchmark R packages
+
 ## How to speed up you R Code?
 
-- Vectorize your R code
+-   Vectorize your R code
 
-- Minimize loops
+-   Minimize loops
 
-  - Use `*apply` functions 
+    -   Use `*apply` functions
 
-- Use optimized functions
+-   Use optimized functions
 
-  - `colMeans()` and `rowMeans()`
-  
-- Implement c++ via Rcpp
+    -   `colMeans()` and `rowMeans()`
 
-- More Information: Advanced R ([adv-r.hadley.nz](https://adv-r.hadley.nz/)) 
+-   Implement c++ via Rcpp
 
+-   More Information: Advanced R ([adv-r.hadley.nz](https://adv-r.hadley.nz/))
 
 # Simulation Study
 
 ## Simulation Study
 
-- Show that Ordinary Least Squares provides consistent estimates
+-   Show that Ordinary Least Squares provides consistent estimates
 
-- Model: $Y = \boldsymbol X^\mathrm T \boldsymbol \beta + \epsilon$
+-   Model: $Y = \boldsymbol X^\mathrm T \boldsymbol \beta + \epsilon$
 
-  - $\boldsymbol \beta = (\beta_0, \beta_1, \beta_2, \beta_3)^\mathrm T = (5, 4, -5, -3)^\mathrm T$
-  
-  - $\boldsymbol X = (1, X_1, X_2, X_3)^\mathrm T$
-  
-  - $\epsilon \sim N(0,3)$
+    -   $\boldsymbol \beta = (\beta_0, \beta_1, \beta_2, \beta_3)^\mathrm T = (5, 4, -5, -3)^\mathrm T$
+
+    -   $\boldsymbol X = (1, X_1, X_2, X_3)^\mathrm T$
+
+    -   $\epsilon \sim N(0,3)$
 
 ## Simulation Parameters
 
-- Number of Data sets: 10000
+-   Number of Data sets: 10000
 
-- Number of Observations: 200
+-   Number of Observations: 200
 
-- $\boldsymbol X \sim N\left(\left(-2,0,2\right)^\mathrm T, \boldsymbol I_3 \right)$
+-   $\boldsymbol X \sim N\left(\left(-2,0,2\right)^\mathrm T, \boldsymbol I_3 \right)$
 
-- $\boldsymbol I_3$: $3\times 3$ Identity Matrix
+-   $\boldsymbol I_3$: $3\times 3$ Identity Matrix
 
 ## Parallelization of Simulation
 
-- 8 cores
+-   8 cores
 
-- Each core will process around 1250 data sets 
+-   Each core will process around 1250 data sets
 
-- [R Script](https://ucrgradstat.github.io/presentations/Parallel_Job.R)
+-   [R Script](https://ucrgradstat.github.io/presentations/Parallel_Job.R)
 
-- [BASH Script](https://ucrgradstat.github.io/presentations/Cluster_Script.sh)
+-   [BASH Script](https://ucrgradstat.github.io/presentations/Cluster_Script.sh)
 
-## Executing Simulation Study
+## Executing Simulation Study {.scrollable}
 
-1. RStudio Server
+1.  RStudio Server
 
-    a. [https://rstudio.hpcc.ucr.edu/](https://rstudio.hpcc.ucr.edu/)
-    b. Login with credentials
+    a.  <https://rstudio.hpcc.ucr.edu/>
+    b.  Login with credentials
 
+2.  Download Documents in R Console
 
-2. Download Documents in R Console
+    1.  Type:
+    ```
+    download.file("https://ucrgradstat.github.io/presentations/Parallel_Job.R", "Parallel_Job.R")
+    ```
+    
 
-      1. Type: `download.file("https://ucrgradstat.github.io/presentations/Parallel_Job.R", "Parallel_Job.R")`
+    2.  Type: 
+    ```
+    download.file("https://ucrgradstat.github.io/presentations/Cluster_Script.sh", "Cluster_Script.sh")
+    ```
 
-      2. Type: `download.file("https://ucrgradstat.github.io/presentations/Cluster_Script.sh", "Cluster_Script.sh")`
+3.  Bash Script
 
+    a.  Line 9: Change to your email
+    b.  Line 12: Change to `intel` or `short` if needed
 
-3. Bash Script
+4.  Submit Job
 
-    a. Line 9: Change to your email
-    b. Line 12: Change to `intel` or `short` if needed
-  
-4. Submit Job
-
-    a. Console Pane
-    b. Terminal Tab
-    c. Type: `sbatch Cluster_Script.sh`
-
+    a.  Console Pane
+    b.  Terminal Tab
+    c.  Type: `sbatch Cluster_Script.sh`
 
 # Thank You!
 
@@ -280,5 +275,3 @@ save(results, file = file_name, version = 2)
 More information of parallel processing:
 
 [Link](https://ucrgradstat.github.io/stat_comp/hpcc/parallel_notebook.nb.html)
-
-
