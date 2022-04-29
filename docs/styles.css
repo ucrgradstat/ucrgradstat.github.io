@@ -1,3 +1,5 @@
+/* css styles */
+
 h1 {
   color:    #003DA5;
 }
@@ -9,6 +11,7 @@ h2 {
 h3 {
   color:    #003DA5;
 }
+
 
 body {
   color: black;
@@ -65,7 +68,7 @@ a.dropdown-toggle:hover {
 }
 
 /*Dropdown menu color*/
-.navbar-default .dropdown-menu {
+.navbar-default .dropdown-menu .dropdown-menu-end>li>a {
   background-color: #2D2D29;
 }
 
@@ -87,7 +90,6 @@ a.dropdown-toggle:hover {
     color: white !important;
     background-color: #003DA5;
 }
-
 
 
 /* -----------HERO IMAGE AT TOP OF PAGE -----------*/
@@ -130,4 +132,15 @@ a.dropdown-toggle:hover {
   color: #ffffff;
   margin-bottom: 2.5rem;
   font-weight: bold;
+}
+
+.hero-top{
+  color: #ffffff;
+  font-size: 58px;
+  text-align: center;
+}
+
+.hero-bottom{
+  color: #ffffff;
+  font-size: 58px;
 }

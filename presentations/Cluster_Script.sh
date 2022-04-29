@@ -1,4 +1,4 @@
-#!/bin/bash -l 
+#!/bin/bash
 
 #SBATCH --nodes=1 # Setting the number of nodes, usually 1 node is used
 #SBATCH --ntasks=1 # Setting the number of tasks, usually 1 task is used

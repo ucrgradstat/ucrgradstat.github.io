@@ -1,0 +1,17 @@
+---
+pagetitle: "Home"
+format: 
+  html:
+    include-in-header: hero_image.html
+section-divs: false
+toc: false
+editor: visual
+---
+
+The Statistics GSA exists to advance the academic, professional, and social lives of current and future statistics graduate students at the University of California, Riverside. We also aim to encourage collaboration among students that are both within and outside of the statistics department. Below are our regular activities:
+
+-   **Social Hour**: A weekly gathering for graduate students to socialize with each other on a personal level.
+
+-   **Graduate Student Seminar (GSS)**: An opportunity for graduate students to present on a topic.
+
+-   **Workshops**: Collaborate with HiSS to host undergraduate workshops.

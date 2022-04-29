@@ -1,0 +1,11 @@
+---
+title: "Statistical"
+---
+
+### UCR Statistics Website
+
+[statistics.ucr.edu](https://statistics.ucr.edu/)
+
+### Statistical Computing
+
+[ucrgradstat.github.io/stat_comp](https://ucrgradstat.github.io/stat_comp/)

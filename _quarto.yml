@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "STATS GSA"
+  navbar:
+    background: primary
+    right:
+      - href: index.qmd
+        text: Home
+      - gss.qmd
+      - newsletter.qmd
+      - text: Resources
+        menu: 
+          - statistical.qmd
+          - university.qmd
+          - career.qmd
+      
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+editor: visual
+
