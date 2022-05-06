@@ -13,9 +13,11 @@ The GSS welcomes, and **ENCOURAGES**, anyone who is interested to attend. This i
 
 ### Upcoming Events
 
-#### Date 5/1/2022
+#### Estimating Treatment Shift Distributions using eCDFs and Numerical Analysis
 
 Presenter: Jeff Ellis
+
+Date: 5/1/2022
 
 #### Date 5/13/2022
 

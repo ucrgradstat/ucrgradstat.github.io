@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "newsletter.html",
+    "href": "newsletter.html",
+    "title": "Newsletter",
+    "section": "",
+    "text": "Newsletter"
+  },
+  {
+    "objectID": "newsletter.html#winter-2021",
+    "href": "newsletter.html#winter-2021",
+    "title": "Newsletter",
+    "section": "Winter 2021",
+    "text": "Winter 2021\nNewsletter"
+  },
+  {
+    "objectID": "newsletter.html#fall-2020",
+    "href": "newsletter.html#fall-2020",
+    "title": "Newsletter",
+    "section": "Fall 2020",
+    "text": "Fall 2020\nNewsletter"
+  },
+  {
+    "objectID": "newsletter.html#spring-2020",
+    "href": "newsletter.html#spring-2020",
+    "title": "Newsletter",
+    "section": "Spring 2020",
+    "text": "Spring 2020\nNewsletter"
+  },
+  {
+    "objectID": "newsletter.html#winter-2020",
+    "href": "newsletter.html#winter-2020",
+    "title": "Newsletter",
+    "section": "Winter 2020",
+    "text": "Winter 2020\nNewsletter"
+  },
+  {
+    "objectID": "career.html",
+    "href": "career.html",
+    "title": "Career",
+    "section": "",
+    "text": "Toolkit for Graduate Students and Postdocs: Document."
+  },
+  {
+    "objectID": "statistical.html",
+    "href": "statistical.html",
+    "title": "Statistical",
+    "section": "",
+    "text": "Statistical Computing\nucrgradstat.github.io/stat_comp"
+  },
+  {
     "objectID": "presentations/hpcc_3-11.html#outline",
     "href": "presentations/hpcc_3-11.html#outline",
     "title": "Parallel Computing with HPCC",
@@ -124,13 +173,6 @@
     "title": "Parallel Computing with HPCC",
     "section": "Executing Simulation Study",
     "text": "Executing Simulation Study\n\nRStudio Server\n\nhttps://rstudio.hpcc.ucr.edu/\nLogin with credentials\n\nDownload Documents in R Console\n\nType:\n\ndownload.file(\"https://ucrgradstat.github.io/presentations/Parallel_Job.R\", \"Parallel_Job.R\")\n\nType:\n\ndownload.file(\"https://ucrgradstat.github.io/presentations/Cluster_Script.sh\", \"Cluster_Script.sh\")\nBash Script\n\nLine 9: Change to your email\n\nSubmit Job\n\nConsole Pane\nTerminal Tab\nType: sbatch Cluster_Script.sh"
-  },
-  {
-    "objectID": "presentations/index.html",
-    "href": "presentations/index.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "HPCC Presentation\nDate: 12-18-2020\nPresenter: Isaac Quintanilla Salinas\nPresentation | R Script | Bash Script"
   },
   {
     "objectID": "presentations/hpcc_12-18.html#outline",
@@ -266,81 +308,46 @@
     "text": "Resources\nMore information of parallel processing:\nLink"
   },
   {
+    "objectID": "presentations/index.html",
+    "href": "presentations/index.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Date: 12-18-2020\nPresenter: Isaac Quintanilla Salinas\nPresentation | R Script | Bash Script"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "STATS GSA",
     "section": "",
-    "text": "The Statistics GSA exists to advance the academic, professional, and social lives of current and future statistics graduate students at the University of California, Riverside. We also aim to encourage collaboration among students that are both within and outside of the statistics department. Below are our regular activities:\n\nSocial Hour: A weekly gathering for graduate students to socialize with each other on a personal level.\nGraduate Student Seminar (GSS): An opportunity for graduate students to present on a topic.\nWorkshops: Collaborate with HiSS to host undergraduate workshops."
-  },
-  {
-    "objectID": "officers.html",
-    "href": "officers.html",
-    "title": "Officers",
-    "section": "",
-    "text": "President\nBradley Lubich\n\n\nVice-President\nRebecca Kurtz-Garcia\n\n\nTreasurer\nJericho Lawson\n\n\nSecretary\nBrian Tran"
-  },
-  {
-    "objectID": "career.html#career-preparation",
-    "href": "career.html#career-preparation",
-    "title": "Career",
-    "section": "Career Preparation",
-    "text": "Career Preparation\nToolkit for Graduate Students and Postdocs: Document."
-  },
-  {
-    "objectID": "statistical.html",
-    "href": "statistical.html",
-    "title": "Statistical",
-    "section": "",
-    "text": "UCR Statistics Website\nstatistics.ucr.edu\n\n\nStatistical Computing\nucrgradstat.github.io/stat_comp"
+    "text": "Social Hour: A weekly gathering for graduate students to socialize with each other on a personal level.\nGraduate Student Seminar (GSS): An opportunity for graduate students to present on a topic.\nWorkshops: Collaborate with HiSS to host undergraduate workshops."
   },
   {
     "objectID": "gss.html",
     "href": "gss.html",
     "title": "GSS",
     "section": "",
-    "text": "The Graduate Students Seminar (GSS) series is an opportunity for graduate students in our department to showcase some of the cool things they are doing, gain presentation practice, and get to know each other. The presentations can be on a variety of topics, including research, projects, internships, a topic you wanted to investigate, a paper that you found interesting, and more. Anything that is appropriate for the graduate-student level audience that could be of interest to the graduate students of this department is welcomed.\nThe GSS welcomes, and ENCOURAGES, anyone who is interested to attend. This includes undergraduates, faculty, and staff. This is open to ALL graduate students. We are hoping to get a variety of topics and perspectives. Please email ucr.grad.stat@gmail.com your name as soon as possible if you would be willing to put together a presentation, we would be delighted to have you.\n\nEvents\n\n2022202120202019\n\n\n\nUpcoming Events\n\nDate 5/1/2022\nPresenter: Jeff Ellis\n\n\nDate 5/13/2022\nPresenter: Sichen Chen\n\n\n\nPast Events\n\nAnalysing risk effects of death after aortic valve replacement surgery: a comparison of joint and marginal models\nPresenter: Trey McGonigle\nDate: 4/15/2022\n\n\nIntroduction to Statistical Network Analysis\nPresenter: Eric Hayes\nDate: 4/8/2022\n\n\nMultivariate Statistical Process Control for Correlated Data in Both Parametric and Non-Parametric Settings\nPresenter: Gokul Parakulam\nDate: 3/11/2022\n\n\nGeneral State Space Markov Chains\nPresenter: Noe Vidales\nDate: 2/25/2022\n\n\nApplying to Assistant Professor Positions at the California State University System\nPresenter: Isaac Quintanilla Salinas\nDate: 2/11/2022\n\n\nIntroduction to Python for R Users\nPresenter: Rebecca Kurtz-Garcia\nDate: 1/28/2022\n\n\n\n\n\nIntroduction to Time Series Analysis\nPresenter: Brian Tran\nDate: 11/17/2021\n\n\nGeneralized Additive Models in R using mgcv\nPresenter: Jeff Ellis\nDate: 11/12/2021\n\n\nOutlier Detection for Sparse Functional Data with Cellwise Contamination\nPresenter: Xiao Gao\nDate: 4/30/2021\n\n\nAn Introduction to Joint Models of Longitudinal and Time-to-Event Outcomes\nPresenter: Debaleena Sain\nDate: 4/23/2021\n\n\nParallel Computing with HPCC\nPresenter: Isaac Quintanilla Salinas\nDate: 3/11/2021\nPresentation\n\n\nReal-Time Classification of Atrial Fibrillation using ECG Characteristics\nPresenter: Jericho Lawson\nDate: 2/4/2021\n\n\nIntroduction to Tidyverse\nPresenter: Kim Phan\nDate: 1/28/2021\nPresentation\n\n\n\n\nSEMI-PARAMETRIC ESTIMATION IN A TWO-COMPONENT LOCATION-SHIFTED MIXTURE MODEL WITH PARTIALLY KNOWN COMPONENT LABELS\nPresenter: Bradley Lubich\nDate: 12/10/2020\n\n\nHOW TO PREPARE FOR DATA SCIENCE INTERNSHIPS: PREREQUISITES, INTERVIEWS AND PROJECTS\nPresenter: Jinhui (Jerry) Yang\nDate: 11/05/2020\n\n\nASYMMETRIC LOSS FUNCTIONS IN MCMC ESTIMATION\nPresenter: Deepak Bastola\nDate: 06/02/2020\n\n\nTHE RCPP PACKAGE: INTEGRATING R AND C++\nPresenter: Tyler Brannan\nDate: 05/05/2020\n\n\nVARYING-COEFFICIENT MODELS\nPresenter: Isaac Quintanilla Salinas\nDate: 04/21/2020\n\n\nA BAYESIAN LONGITUDINAL ANALYSIS OF COUNT DATA WITH GAUSSIAN PROCESSES\nPresenter: Samantha VanSchalkwyk\nDate: 03/12/2020\n\n\nBUILDING SIMULTANEOUS CONFIDENCE BANDS FOR FUNCTIONS\nPresenter: Jinhui Yang\nDate: 03/05/2020\n\n\nJOINT SURVIVAL-LONGITUDINAL MODELING\nPresenter: Tyler Brannan\nDate: 02/27/2020\n\n\nData Science Internships\nPresenter: Dong Ji\nDate: 01/30/2020\n\n\nJanssen Pharmaceuticals Internships Recap and Joint Modeling of Longitudinal and Time-to-Event Data\nPresenter: Luke Klein\nDate: 01/16/2020\n\n\n\n\nDivide-and-Conquer for Expectile Regression Processes\nPresenter: Zhen Zhang\nDate: 12/06/2019\n\n\nIdentifying the Best Predictive Biomarker in Pharmacogenomics\nPresenter: Song Zhai\nDate: 11/22/2019\n\n\nBayesian Sensitivity Analysis to Adjust for Unmeasured Confounder in Causal Inference\nPresenter: Bibby Zhou\nDate: 11/08/2019"
+    "text": "The GSS welcomes, and ENCOURAGES, anyone who is interested to attend. This includes undergraduates, faculty, and staff. This is open to ALL graduate students. We are hoping to get a variety of topics and perspectives. Please email ucr.grad.stat@gmail.com your name as soon as possible if you would be willing to put together a presentation, we would be delighted to have you.\n\nEvents\n\n2022202120202019\n\n\n\nUpcoming Events\n\nEstimating Treatment Shift Distributions using eCDFs and Numerical Analysis\nPresenter: Jeff Ellis\nDate: 5/1/2022\n\n\nDate 5/13/2022\nPresenter: Sichen Chen\n\n\n\nPast Events\n\nAnalysing risk effects of death after aortic valve replacement surgery: a comparison of joint and marginal models\nPresenter: Trey McGonigle\nDate: 4/15/2022\n\n\nIntroduction to Statistical Network Analysis\nPresenter: Eric Hayes\nDate: 4/8/2022\n\n\nMultivariate Statistical Process Control for Correlated Data in Both Parametric and Non-Parametric Settings\nPresenter: Gokul Parakulam\nDate: 3/11/2022\n\n\nGeneral State Space Markov Chains\nPresenter: Noe Vidales\nDate: 2/25/2022\n\n\nApplying to Assistant Professor Positions at the California State University System\nPresenter: Isaac Quintanilla Salinas\nDate: 2/11/2022\n\n\nIntroduction to Python for R Users\nPresenter: Rebecca Kurtz-Garcia\nDate: 1/28/2022\n\n\n\n\n\nIntroduction to Time Series Analysis\nPresenter: Brian Tran\nDate: 11/17/2021\n\n\nGeneralized Additive Models in R using mgcv\nPresenter: Jeff Ellis\nDate: 11/12/2021\n\n\nOutlier Detection for Sparse Functional Data with Cellwise Contamination\nPresenter: Xiao Gao\nDate: 4/30/2021\n\n\nAn Introduction to Joint Models of Longitudinal and Time-to-Event Outcomes\nPresenter: Debaleena Sain\nDate: 4/23/2021\n\n\nParallel Computing with HPCC\nPresenter: Isaac Quintanilla Salinas\nDate: 3/11/2021\nPresentation\n\n\nReal-Time Classification of Atrial Fibrillation using ECG Characteristics\nPresenter: Jericho Lawson\nDate: 2/4/2021\n\n\nIntroduction to Tidyverse\nPresenter: Kim Phan\nDate: 1/28/2021\nPresentation\n\n\n\n\nSEMI-PARAMETRIC ESTIMATION IN A TWO-COMPONENT LOCATION-SHIFTED MIXTURE MODEL WITH PARTIALLY KNOWN COMPONENT LABELS\nPresenter: Bradley Lubich\nDate: 12/10/2020\n\n\nHOW TO PREPARE FOR DATA SCIENCE INTERNSHIPS: PREREQUISITES, INTERVIEWS AND PROJECTS\nPresenter: Jinhui (Jerry) Yang\nDate: 11/05/2020\n\n\nASYMMETRIC LOSS FUNCTIONS IN MCMC ESTIMATION\nPresenter: Deepak Bastola\nDate: 06/02/2020\n\n\nTHE RCPP PACKAGE: INTEGRATING R AND C++\nPresenter: Tyler Brannan\nDate: 05/05/2020\n\n\nVARYING-COEFFICIENT MODELS\nPresenter: Isaac Quintanilla Salinas\nDate: 04/21/2020\n\n\nA BAYESIAN LONGITUDINAL ANALYSIS OF COUNT DATA WITH GAUSSIAN PROCESSES\nPresenter: Samantha VanSchalkwyk\nDate: 03/12/2020\n\n\nBUILDING SIMULTANEOUS CONFIDENCE BANDS FOR FUNCTIONS\nPresenter: Jinhui Yang\nDate: 03/05/2020\n\n\nJOINT SURVIVAL-LONGITUDINAL MODELING\nPresenter: Tyler Brannan\nDate: 02/27/2020\n\n\nData Science Internships\nPresenter: Dong Ji\nDate: 01/30/2020\n\n\nJanssen Pharmaceuticals Internships Recap and Joint Modeling of Longitudinal and Time-to-Event Data\nPresenter: Luke Klein\nDate: 01/16/2020\n\n\n\n\nDivide-and-Conquer for Expectile Regression Processes\nPresenter: Zhen Zhang\nDate: 12/06/2019\n\n\nIdentifying the Best Predictive Biomarker in Pharmacogenomics\nPresenter: Song Zhai\nDate: 11/22/2019\n\n\nBayesian Sensitivity Analysis to Adjust for Unmeasured Confounder in Causal Inference\nPresenter: Bibby Zhou\nDate: 11/08/2019"
   },
   {
-    "objectID": "newsletter.html#spring-2021",
-    "href": "newsletter.html#spring-2021",
-    "title": "Newsletter",
-    "section": "Spring 2021",
-    "text": "Spring 2021\nNewsletter"
+    "objectID": "officers.html",
+    "href": "officers.html",
+    "title": "Officers",
+    "section": "",
+    "text": "Vice-President\nRebecca Kurtz-Garcia\n\n\nTreasurer\nJericho Lawson\n\n\nSecretary\nBrian Tran"
   },
   {
-    "objectID": "newsletter.html#winter-2021",
-    "href": "newsletter.html#winter-2021",
-    "title": "Newsletter",
-    "section": "Winter 2021",
-    "text": "Winter 2021\nNewsletter"
+    "objectID": "university.html",
+    "href": "university.html",
+    "title": "University",
+    "section": "",
+    "text": "gsa.ucr.edu"
   },
   {
-    "objectID": "newsletter.html#fall-2020",
-    "href": "newsletter.html#fall-2020",
+    "objectID": "old/newsletter.html",
+    "href": "old/newsletter.html",
     "title": "Newsletter",
-    "section": "Fall 2020",
-    "text": "Fall 2020\nNewsletter"
-  },
-  {
-    "objectID": "newsletter.html#spring-2020",
-    "href": "newsletter.html#spring-2020",
-    "title": "Newsletter",
-    "section": "Spring 2020",
-    "text": "Spring 2020\nNewsletter"
-  },
-  {
-    "objectID": "newsletter.html#winter-2020",
-    "href": "newsletter.html#winter-2020",
-    "title": "Newsletter",
-    "section": "Winter 2020",
-    "text": "Winter 2020\nNewsletter"
-  },
-  {
-    "objectID": "old/newsletter.html#spring-2021",
-    "href": "old/newsletter.html#spring-2021",
-    "title": "Newsletter",
-    "section": "Spring 2021",
-    "text": "Spring 2021\nNewsletter"
+    "section": "",
+    "text": "Newsletter"
   },
   {
     "objectID": "old/newsletter.html#winter-2021",
@@ -371,25 +378,25 @@
     "text": "Winter 2020\nNewsletter"
   },
   {
-    "objectID": "old/university.html",
-    "href": "old/university.html",
-    "title": "University",
-    "section": "",
-    "text": "UCR GSA\ngsa.ucr.edu"
-  },
-  {
     "objectID": "old/statistical.html",
     "href": "old/statistical.html",
     "title": "Statistical",
     "section": "",
-    "text": "UCR Statistics Website\nstatistics.ucr.edu\n\n\nStatistical Computing\nucrgradstat.github.io/stat_comp"
+    "text": "Statistical Computing\nucrgradstat.github.io/stat_comp"
   },
   {
-    "objectID": "old/index.html",
-    "href": "old/index.html",
-    "title": "Welcome!",
+    "objectID": "old/career.html",
+    "href": "old/career.html",
+    "title": "Career",
     "section": "",
-    "text": "The Statistics GSA exists to advance the academic, professional, and social lives of current and future statistics graduate students at the University of California, Riverside. We also aim to encourage collaboration among students that are both within and outside of the statistics department. Below are our regular activities:\n\nSocial Hour: A weekly gathering for graduate students to socialize with each other on a personal level.\nGraduate Student Seminar (GSS): An opportunity for graduate students to present on a topic.\nWorkshops: Collaborate with HiSS to host undergraduate workshops."
+    "text": "Toolkit for Graduate Students and Postdocs: Document."
+  },
+  {
+    "objectID": "old/gss.html",
+    "href": "old/gss.html",
+    "title": "GSS",
+    "section": "",
+    "text": "The Graduate Students Seminar (GSS) series is an opportunity for graduate students in our department to showcase some of the cool things they are doing, gain presentation practice, and get to know each other. The presentations can be on a variety of topics, including research, projects, internships, a topic you wanted to investigate, a paper that you found interesting, and more. Anything that is appropriate for the graduate-student level audience that could be of interest to the graduate students of this department is welcomed.\nThe GSS welcomes, and ENCOURAGES, anyone who is interested to attend. This includes undergraduates, faculty, and staff. This is open to ALL graduate students. We are hoping to get a variety of topics and perspectives. Please email ucr.grad.stat@gmail.com your name as soon as possible if you would be willing to put together a presentation, we would be delighted to have you."
   },
   {
     "objectID": "old/gss.html#upcoming-presentations",
@@ -410,20 +417,20 @@
     "href": "old/officers.html",
     "title": "Officers",
     "section": "",
-    "text": "President\nBradley Lubich\n\n\nVice-President\nRebecca Kurtz-Garcia\n\n\nTreasurer\nJericho Lawson\n\n\nSecretary\nBrian Tran"
+    "text": "Vice-President\nRebecca Kurtz-Garcia\n\n\nTreasurer\nJericho Lawson\n\n\nSecretary\nBrian Tran"
   },
   {
-    "objectID": "old/career.html#career-preparation",
-    "href": "old/career.html#career-preparation",
-    "title": "Career",
-    "section": "Career Preparation",
-    "text": "Career Preparation\nToolkit for Graduate Students and Postdocs: Document."
-  },
-  {
-    "objectID": "university.html",
-    "href": "university.html",
+    "objectID": "old/university.html",
+    "href": "old/university.html",
     "title": "University",
     "section": "",
-    "text": "UCR GSA\ngsa.ucr.edu"
+    "text": "gsa.ucr.edu"
+  },
+  {
+    "objectID": "old/index.html",
+    "href": "old/index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Social Hour: A weekly gathering for graduate students to socialize with each other on a personal level.\nGraduate Student Seminar (GSS): An opportunity for graduate students to present on a topic.\nWorkshops: Collaborate with HiSS to host undergraduate workshops."
   }
 ]
