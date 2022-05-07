@@ -13,17 +13,19 @@ The GSS welcomes, and **ENCOURAGES**, anyone who is interested to attend. This i
 
 ### Upcoming Events
 
+#### Discovering and solving reaction-diffusion models for pollen tube tip growth with deep learning algorithms
+
+Presenter: Sichen Chen
+
+Date: 5/13/2022
+
+### Past Events
+
 #### Estimating Treatment Shift Distributions using eCDFs and Numerical Analysis
 
 Presenter: Jeff Ellis
 
 Date: 5/1/2022
-
-#### Date 5/13/2022
-
-Presenter: Sichen Chen
-
-### Past Events
 
 #### Analysing risk effects of death after aortic valve replacement surgery: a comparison of joint and marginal models
 
