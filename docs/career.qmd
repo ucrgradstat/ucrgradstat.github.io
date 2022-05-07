@@ -1,7 +1,0 @@
----
-title: "Career"
----
-
-## Career Preparation
-
-Toolkit for Graduate Students and Postdocs: [Document](https://career.ucla.edu/download/ee6798d6-7646-4ac1-8f6d-0711029ede9a).

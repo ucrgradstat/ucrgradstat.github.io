@@ -29,6 +29,7 @@ website. Make sure to keep the following lines:
         - officers.qmd
         - statistical.qmd
         - university.qmd
+        - career.qmd
 
 These lines tells Quarto how to build the website. The `output-dir`
 indicates where to put the built website, and `render` indicates which

@@ -29,6 +29,7 @@ The `_quarto.yml` file contains all the information needed to build the website.
         - officers.qmd
         - statistical.qmd
         - university.qmd
+        - career.qmd
 
 These lines tells Quarto how to build the website. The `output-dir` indicates where to put the built website, and `render` indicates which files need to be built. If any new files need to be built, add them to the `render` section.
 
