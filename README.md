@@ -23,11 +23,12 @@ website. Make sure to keep the following lines:
         type: website
         output-dir: docs
         render: 
-          - index.qmd
-          - hpcc.qmd
-          - python_tutorials.qmd
-          - r_tutorials.qmd
-          - submission.qmd
+        - index.qmd
+        - gss.qmd
+        - newsletter.qmd
+        - officers.qmd
+        - statistical.qmd
+        - university.qmd
 
 These lines tells Quarto how to build the website. The `output-dir`
 indicates where to put the built website, and `render` indicates which

@@ -18,17 +18,17 @@ You may also build the website from the build tab. Make sure to build the websit
 ## Configuring `_quarto.yml`
 
 The `_quarto.yml` file contains all the information needed to build the website. Make sure to keep the following lines:
-```
-project:
-    type: website
-    output-dir: docs
-    render: 
-      - index.qmd
-      - hpcc.qmd
-      - python_tutorials.qmd
-      - r_tutorials.qmd
-      - submission.qmd
-```
+
+    project:
+        type: website
+        output-dir: docs
+        render: 
+        - index.qmd
+        - gss.qmd
+        - newsletter.qmd
+        - officers.qmd
+        - statistical.qmd
+        - university.qmd
 
 These lines tells Quarto how to build the website. The `output-dir` indicates where to put the built website, and `render` indicates which files need to be built. If any new files need to be built, add them to the `render` section.
 
