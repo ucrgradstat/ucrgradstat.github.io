@@ -1,14 +1,20 @@
 project:
   type: website
   output-dir: docs
+  render: 
+    - index.qmd
+    - gss.qmd
+    - newsletter.qmd
+    - officers.qmd
+    - statistical.qmd
+    - university.qmd
+
 
 website:
   title: "STATS GSA"
   navbar:
     background: primary
     right:
-      - href: index.qmd
-        text: Home
       - gss.qmd
       - newsletter.qmd
       - text: Resources
@@ -16,6 +22,9 @@ website:
           - statistical.qmd
           - university.qmd
           - career.qmd
+      - icon: github
+        href: https://github.com/ucrgradstat/stat_comp
+
       
 
 format:

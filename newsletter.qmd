@@ -2,6 +2,10 @@
 title: "Newsletter"
 ---
 
+## Fall 2021
+
+[Newsletter](PDFS/F21.pdf)
+
 ## Spring 2021
 
 [Newsletter](PDFS/S21.pdf)
