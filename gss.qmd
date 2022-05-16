@@ -13,13 +13,19 @@ The GSS welcomes, and **ENCOURAGES**, anyone who is interested to attend. This i
 
 ### Upcoming Events
 
+#### UCR High-Performance Computing Center with applications in parallel computing
+
+Presenter: Isaac Quintanilla Salinas
+
+Date: 5/20/2022
+
+### Previous Events
+
 #### Discovering and solving reaction-diffusion models for pollen tube tip growth with deep learning algorithms
 
 Presenter: Sichen Chen
 
 Date: 5/13/2022
-
-### Past Events
 
 #### Estimating Treatment Shift Distributions using eCDFs and Numerical Analysis
 
