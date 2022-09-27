@@ -19,6 +19,7 @@ website:
     right:
       - gss.qmd
       - newsletter.qmd
+      - officers.qmd
       - text: Resources
         menu: 
           - statistical.qmd
